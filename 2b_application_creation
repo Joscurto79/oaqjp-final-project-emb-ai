@@ -1,0 +1,14 @@
+>>> from emotion_detection import emotion_detector
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'emotion_detection'
+>>> from EmotionDetection import emotion_detector       )
+{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
+>>> exit ()
+theia@theiadocker-josephcurto8:/home/project/final_projec
+t/oaqjp-final-project-emb-ai$ python3 test_emotion_detection.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.610s
+
+OK
